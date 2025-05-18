@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/roomCodeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Wprowadź kod pokoju" />
+
+    <Button
+        android:id="@+id/createRoomButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Utwórz pokój" />
+
+    <Button
+        android:id="@+id/joinRoomButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dołącz do pokoju" />
+    <Button
+        android:id="@+id/observerButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dołącz jako obserwator" />
+
+    <Button
+        android:id="@+id/startPlacementButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rozmieszczanie statków" />
+</LinearLayout>

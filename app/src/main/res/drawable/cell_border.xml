@@ -1,0 +1,4 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#D3D3D3" /> <!-- Цвет ячейки (светло-серый) -->
+    <stroke android:width="2dp" android:color="#000000" /> <!-- Чёрная граница -->
+</shape>
